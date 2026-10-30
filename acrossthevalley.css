@@ -1,0 +1,255 @@
+* { 
+       box-sizing: border-box;
+}
+body { 
+       background-color: #EAEAEA;
+       color: #555555; 
+       font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+       width: 80%;
+       max-width: 1200px;
+       min-width: 960px;
+       margin: 1em auto;
+       background-color: #FFFFFF;
+       border: 3px solid #CE5C17;
+}
+header { 
+        background-color: #CE5C17;
+        color: #FFFFFF;
+        text-align: center;
+}
+header a:link {
+        text-decoration: none;
+        color: #FFFFFF
+}
+header a:visited {
+        text-decoration: none;
+        color: #FFFFFF
+}
+header a:hover {
+        text-decoration: none;
+        color: #002868;
+}
+nav { 
+        font-weight: bold;
+        font-size: 120%;
+        padding: 1em;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-bottom: 3px solid #CE5C17;
+}
+nav a { 
+        text-decoration: none;
+}
+nav li {
+        display: inline;
+        padding: 1em;
+}
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+nav a:link {
+        color: #FF9913;
+}
+nav a:visited {
+        color: #CE5C17;
+}
+nav a:hover {
+        color: #002868;
+}
+#homehero {
+        height: 300px;
+        background-image: url("Images/camelback.png");
+        background-size: cover;
+        background-position: center;
+        border-bottom: 3px solid #CE5C17;
+        margin-bottom: 1em;
+}
+main {
+        background-color: #FFFFFF;
+        padding-top: 1px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+}
+footer {
+        background-color: #CE5C17;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.footer-left {
+        width: 25%;
+        font-weight: bold;
+        color: #FFFFFF;
+}
+.footer-left h3 {
+        color: #FFFFFF
+}
+.footer-center {
+        width: 50%;
+        text-align: center;
+}
+.footer-right {
+        width: 25%;
+        text-align: right;
+        font-size: 80%;
+        color: #FFFFFF;
+}
+#purpose {
+        border: 5px solid #CE5C17;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.purpose-text {
+        width: 60%;
+        color: #000000;
+}
+.purpose-image {
+        width: 35%;
+        text-align: center;
+}
+.purpose-image img {
+        width: 100%;
+        height: auto;
+}
+.button {
+        display: inline-block;
+        background-color: #CE5C17;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 0.5em 1.5em;
+        border-radius: 20px;
+}
+.content-row {
+        display: flex;
+        gap: 1em;
+        margin-top: 1em;
+}
+.attractions {
+        background-color: #FFFFFF;
+        border: 5px solid #CE5C17;
+        color: #000000;
+        padding: 1em;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.attractions-image {
+        width: 30%;
+        text-align: center;
+}
+.attractions-image img{
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+}
+.attractions-text {
+        width: 70%;
+}
+.survey {
+        background-color: gray;
+        border: 5px solid #CE5C17;
+        color: #000000;
+        padding: 1em;
+        width: 25%;
+        text-align: center;
+}
+.parks {
+        background-color: #FFFFFF;
+        border: 5px solid #CE5C17;
+        color: #000000;
+        padding: 1em;
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.parks-image {
+        width: 30%;
+        text-align: center;
+}
+.parks-image img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+}
+.parks-text {
+        width: 70%;
+}
+.followus {
+        background-color: gray;
+        border: 5px solid #CE5C17;
+        color: #000000;
+        padding: 1.5em;
+        width: 25%;
+        text-align: center;
+        align-self: flex-start;
+}
+.followus img {
+        width: 60px;
+        height: auto;
+        margin: 0.25em;
+}
+.museums {
+        background-color: #FFFFFF;
+        border: 5px solid #CE5C17;
+        color: #000000;
+        padding: 1em;
+        width: 74%;
+        margin-top: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.museums-text {
+        width: 70%;
+}
+.museums-image {
+        width: 30%;
+        text-align: center;
+}
+.museums-image img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+}
+#atthero {
+        height: 300px;
+        background-image: url("Images/fashionsquare.png");
+        background-size: cover;
+        background-position: center;
+}
+#parkhero {
+        height: 300px;
+        background-image: url("Images/camelback2.png");
+        background-size: cover;
+        background-position: center;
+}
+h1 {
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        letter-spacing: 0.25em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+}
+h2 { 
+        color: #CE5C17;
+        font-family: Georgia, "Times New Roman", serif;
+        text-shadow: 1px 1px 1px #CCCCCC;
+}
+h3 {
+        color: #000033;
+        font-family: Georgia, "Times New Roman", serif;
+}
+main ul {
+        list-style-image: url("Images/marker.gif");
+}
